@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+    <header>
+        <h1><b>Register for TechCon 2024</b></h1>
+        <nav>
+            <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="submit_registration.html" method="POST">
+            <!-- name -->
+            <label for="fullname">Full Name :</label>
+            <input type="text" id="fullname" name="fullname" required><br>
+            <!-- email -->
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" required><br>
+            <!-- password -->
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" required><br>
+            <!-- confirm password -->
+            <label for="confirm password"> Confirm Password :</label>
+            <input type="password" name="password" id="confirm password" required><br>
+            <!-- Terms and conditions -->
+             <input type="checkbox" name="terms" id="terms" required>
+             <label for="terms"> I agree to the terms and Condition</label><br>
+             <!-- Submit button -->
+              <button type="submit">Register Now</button><br>
+        </form>
+    </main>
+    <footer>
+    <p>&copy; 2024 TechCon. All rights reserved. copyright.</p>
+  </footer>
+</body>
+</html>
